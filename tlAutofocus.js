@@ -2,12 +2,13 @@ var Triarc;
 (function (Triarc) {
     var Web;
     (function (Web) {
-        angular.module("tlAutofocus", []).directive('tlAutofocus', ['$timeout', function ($timeout) {
+        angular.module("tlAutofocus", []).directive("tlAutofocus", ["$timeout", function ($timeout) {
             return {
-                restrict: 'A',
+                restrict: "A",
                 link: function ($scope, $element) {
                     $timeout(function () {
-                        $element[0].focus().select();
+                        $element[0].focus();
+                        $element[0].select();
                     });
                 }
             };
