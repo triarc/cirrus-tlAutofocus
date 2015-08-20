@@ -1,8 +1,8 @@
 {
   "name": "cirrus-tlAutofocus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
-    "Marco Bachmann <mb@triarc-labs.com>"
+    "Krzysztof Burlinski <kb@triarc-labs.com>"
   ],
   "main": "tlAutofocus.js",
   "moduleType": [
@@ -20,5 +20,7 @@
     "definition": "tlAutofocus.d.ts"
   },
   "endpoint": "https://github.com/triarc/cirrus-tlAutofocus.git",
-  "dependencies": {}
+  "dependencies": {
+    "angular": "^1.3.18"
+  }
 }
